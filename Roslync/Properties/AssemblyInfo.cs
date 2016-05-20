@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Roslync")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("With Roslync it's possible to use Lync to browse through source code and modify it.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Devedse's cool company")]
 [assembly: AssemblyProduct("Roslync")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

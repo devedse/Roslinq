@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/devedse/Roslync/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/devedse/Roslync</projectUrl>
+    <iconUrl>http://2.gravatar.com/avatar/2ffa5599d5902b13729f2d306bd0cc2d</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Roslyn Lync</tags>
+  </metadata>
+</package>
