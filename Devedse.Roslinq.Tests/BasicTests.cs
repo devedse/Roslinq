@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Roslinq.Structure;
+using Devedse.Roslinq.Structure;
 
-namespace Roslinq.Tests
+namespace Devedse.Roslinq.Tests
 {
     [TestClass]
     public class BasicTests

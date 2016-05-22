@@ -1,4 +1,4 @@
-﻿using Roslinq.Structure;
+﻿using Devedse.Roslinq.Structure;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RoslinqForms
+namespace Devedse.RoslinqForms
 {
     public partial class RoslinqForm : Form
     {
@@ -20,7 +20,7 @@ namespace RoslinqForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var solution = new DeveSolution(@"..\..\..\Roslinq.sln");
+            var solution = new DeveSolution(@"..\..\..\Devedse.Roslinq.sln");
 
             var solu = solution.Projects.ToList();
 

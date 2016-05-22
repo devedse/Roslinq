@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Roslinq.Structure
+namespace Devedse.Roslinq.Structure
 {
     public class DeveMethod : DeveSyntaxNode
     {

@@ -1,4 +1,4 @@
-﻿namespace RoslinqForms
+﻿namespace Devedse.RoslinqForms
 {
     partial class RoslinqForm
     {
