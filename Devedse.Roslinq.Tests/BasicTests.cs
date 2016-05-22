@@ -10,7 +10,7 @@ namespace Devedse.Roslinq.Tests
         [TestMethod]
         public void LoadsASolution()
         {
-            var solution = new DeveSolution(@"..\..\..\Roslinq.sln");
+            var solution = new DeveSolution(@"..\..\..\Devedse.Roslinq.sln");
             Assert.AreNotEqual(0, solution.AllMethods);
         }
     }
