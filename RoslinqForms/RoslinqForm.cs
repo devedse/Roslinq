@@ -1,4 +1,4 @@
-﻿using Roslync.Structure;
+﻿using Roslinq.Structure;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,18 +9,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RoslyncForms
+namespace RoslinqForms
 {
-    public partial class RoslyncForm : Form
+    public partial class RoslinqForm : Form
     {
-        public RoslyncForm()
+        public RoslinqForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var solution = new DeveSolution(@"..\..\..\Roslync.sln");
+            var solution = new DeveSolution(@"..\..\..\Roslinq.sln");
 
             var solu = solution.Projects.ToList();
 

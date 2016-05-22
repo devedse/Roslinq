@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslync", "Roslync\Roslync.csproj", "{E570548E-1348-4494-8CCF-3A686FD8A607}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslinq", "Roslinq\Roslinq.csproj", "{E570548E-1348-4494-8CCF-3A686FD8A607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslyncForms", "RoslyncForms\RoslyncForms.csproj", "{135729FB-AB17-4F7B-BCF5-C4DB4B8AB25C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslinqForms", "RoslinqForms\RoslinqForms.csproj", "{135729FB-AB17-4F7B-BCF5-C4DB4B8AB25C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslync.Tests", "Roslync.Tests\Roslync.Tests.csproj", "{EAFD97C1-20EC-4EB2-BE23-0DAA91F03C86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslinq.Tests", "Roslinq.Tests\Roslinq.Tests.csproj", "{EAFD97C1-20EC-4EB2-BE23-0DAA91F03C86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

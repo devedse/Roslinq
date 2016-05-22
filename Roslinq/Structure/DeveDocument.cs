@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Roslync.Structure
+namespace Roslinq.Structure
 {
     public class DeveDocument : DeveSyntaxNode
     {

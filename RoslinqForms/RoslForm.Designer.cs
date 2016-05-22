@@ -1,6 +1,6 @@
-﻿namespace RoslyncForms
+﻿namespace RoslinqForms
 {
-    partial class RoslyncForm
+    partial class RoslinqForm
     {
         /// <summary>
         /// Required designer variable.

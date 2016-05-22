@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RoslyncForms.Properties
+namespace RoslinqForms.Properties
 {
 
 

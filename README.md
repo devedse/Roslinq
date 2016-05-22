@@ -1,2 +1,2 @@
-# Roslync
-With this project you can use Lync to browse your source code
+# Roslinq
+With this project you can use Linq to browse your source code

@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Roslync.Structure;
+using Roslinq.Structure;
 
-namespace Roslync.Tests
+namespace Roslinq.Tests
 {
     [TestClass]
     public class BasicTests
@@ -10,7 +10,7 @@ namespace Roslync.Tests
         [TestMethod]
         public void LoadsASolution()
         {
-            var solution = new DeveSolution(@"..\..\..\Roslync.sln");
+            var solution = new DeveSolution(@"..\..\..\Roslinq.sln");
             Assert.AreNotEqual(0, solution.AllMethods);
         }
     }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Roslync")]
-[assembly: AssemblyDescription("With Roslync it's possible to use Lync to browse through source code and modify it.")]
+[assembly: AssemblyTitle("RoslinqForms")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Devedse's cool company")]
-[assembly: AssemblyProduct("Roslync")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("RoslinqForms")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e570548e-1348-4494-8ccf-3a686fd8a607")]
+[assembly: Guid("135729fb-ab17-4f7b-bcf5-c4db4b8ab25c")]
 
 // Version information for an assembly consists of the following four values:
 //

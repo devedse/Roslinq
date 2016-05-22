@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Roslync.Structure.Extra
+namespace Roslinq.Structure.Extra
 {
     class DeveParameter
     {
