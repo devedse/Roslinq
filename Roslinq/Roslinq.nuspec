@@ -11,7 +11,7 @@
     <iconUrl>http://2.gravatar.com/avatar/2ffa5599d5902b13729f2d306bd0cc2d</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Just the first version.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Roslyn Linq</tags>
   </metadata>
