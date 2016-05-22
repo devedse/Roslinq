@@ -13,7 +13,7 @@ namespace Devedse.Roslinq.Structure
     {
         private ClassDeclarationSyntax _classDeclarationSyntax;
 
-        public IEnumerable<DeveMethod> Methods => _classDeclarationSyntax.DescendantNodes().OfType<MethodDeclarationSyntax>().Select(t => new DeveMethod(t));
+        public IEnumerable<DeveMethod> Methods => _classDeclarationSyntax.DescendantNodes().OfType<MethodDeclarationSyntax>().Select(t => new DeveMethod(t, this));
 
         public String Name
         {
@@ -35,7 +35,7 @@ namespace Devedse.Roslinq.Structure
         {
             //var trreeee = SyntaxTree.ParseText(methodText).GetRoot();
 
-            
+
 
             //var result = SyntaxAdderHelper.AddSyntaxNode(_classDeclarationSyntax, trreeee);
             //Parent.ReplaceThisChildNode(_classDeclarationSyntax, result);

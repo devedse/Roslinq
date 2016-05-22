@@ -8,5 +8,6 @@ namespace Devedse.Roslinq.Structure.Extra
 {
     class DeveParameter
     {
+
     }
 }

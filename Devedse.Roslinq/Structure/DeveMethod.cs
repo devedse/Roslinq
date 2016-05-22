@@ -9,6 +9,7 @@ namespace Devedse.Roslinq.Structure
 {
     public class DeveMethod : DeveSyntaxNode
     {
+        public DeveClass Parent { get; private set; }
         private MethodDeclarationSyntax _methodDeclarationSyntax;
 
         public String Name
@@ -27,9 +28,10 @@ namespace Devedse.Roslinq.Structure
             }
         }
 
-        public DeveMethod(MethodDeclarationSyntax methodDeclarationSyntax)
+        public DeveMethod(MethodDeclarationSyntax methodDeclarationSyntax, DeveClass parent)
         {
             this._methodDeclarationSyntax = methodDeclarationSyntax;
+            this.Parent = parent;
         }
     }
 }
