@@ -29,5 +29,26 @@ namespace Devedse.RoslinqForms
                 Console.WriteLine(method.Name);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var solution = new DeveSolution(@"..\..\..\Devedse.Roslinq.sln");
+
+            var hallo = solution.AllDocuments;
+
+            foreach (var doc in hallo)
+            {
+                var usings = doc.Usings.Select(t => t.ToString()).OrderBy(t => t).ToList();
+                var allusings = doc.UnusedUsings.Distinct().OrderBy(t => t).ToList();
+
+
+
+                foreach (var us in doc.UnusedUsings)
+                {
+                    Console.WriteLine(us);
+                }
+            }
+
+        }
     }
 }

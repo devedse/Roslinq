@@ -22,6 +22,12 @@ namespace Devedse.Roslinq.Structure
                 return _classDeclarationSyntax.Identifier.Value.ToString();
             }
         }
+        
+        private static IEnumerable<INamespaceSymbol> GetNamespaceSymbol(ISymbol symbol)
+        {
+            if (symbol != null && symbol.ContainingNamespace != null)
+                yield return symbol.ContainingNamespace;
+        }
 
         public DeveDocument Parent { get; private set; }
 

@@ -33,7 +33,7 @@ namespace Devedse.Roslinq.Structure
 
             if (success)
             {
-                Console.WriteLine("Successfully written solution :)");
+                Console.WriteLine("Successfully wrote solution :)");
             }
 
             return success;

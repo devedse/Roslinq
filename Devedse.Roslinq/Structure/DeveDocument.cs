@@ -23,6 +23,53 @@ namespace Devedse.Roslinq.Structure
             }
         }
 
+        public IEnumerable<UsingDirectiveSyntax> Usings
+        {
+            get
+            {
+                return ((CompilationUnitSyntax)_document.GetSyntaxRootAsync().Result).Usings;
+            }
+        }
+
+        public IEnumerable<string> UnusedUsings
+        {
+            get
+            {
+                var semanticModel = ((SemanticModel)_document.GetSemanticModelAsync().Result);
+                //var ns = semanticModel.SyntaxTree.GetRoot().DescendantNodes().SelectMany(node => GetNamespaceSymbol(semanticModel.GetSemanticInfo(node).Symbol)).Distinct();
+
+                var descNodes = semanticModel.SyntaxTree.GetRoot().DescendantNodes();
+
+                foreach (var desc in descNodes)
+                {
+                    var thing1 = semanticModel.GetSymbolInfo(desc).Symbol;
+
+
+                    if (thing1 != null)
+                    {
+                        var thing3 = thing1.ContainingNamespace;
+                        yield return thing3.ToString();
+                    }
+                    else
+                    {
+                        //Console.WriteLine("No symbol found...");
+                    }
+
+
+                }
+            }
+        }
+
+
+
+        private static IEnumerable<INamespaceSymbol> GetNamespaceSymbol(ISymbol symbol)
+        {
+            if (symbol != null && symbol.ContainingNamespace != null)
+                yield return symbol.ContainingNamespace;
+        }
+
+
+
         public DeveProject Parent { get; private set; }
 
         public DeveDocument(Document document, DeveProject parent)

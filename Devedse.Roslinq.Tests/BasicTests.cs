@@ -20,7 +20,6 @@ namespace Devedse.Roslinq.Tests
         [TestMethod]
         public void ThisMethodExistsInThisClass()
         {
-            //Blahblah123123identifier123123:)
             var solution = new DeveSolution(SolutionPath);
             var thisMethod = solution.AllMethods.Where(t => t.InnerCode.Contains("//Blahblah123123identifier123123:)")).Single();
 
